@@ -1,39 +1,32 @@
-# Animals-Memory-Blocks
+# Animals Memory Blocks
 
-**By [Saif Abdelrazek](https://github.com/SaifAbdelrazek011)**  
+A memory matching game with animal icons built with TypeScript. The game features dark and light modes, customizable time limits, and variable difficulty. The goal is to match all pairs before time runs out with the fewest wrong attempts.
 
-The game is a simple memory block game with animal icons. The techniques used are HTML, CSS, and TypeScript. The website contains dark and light modes and contains the ability to choose the time for the game and the number of different images (remember blocks = 2 * number of different images). Remember to watch the time and end the game in the least wrong attempts possible. And finally, don't forget to always have fun.
-
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/SaifAbdelrazek011/speed-typing-game/blob/main/LICENSE)
-![TypeScript](https://img.shields.io/badge/TypeScript-4.9%2B-3178C6.svg)
-
---------------------------------------------------------------------------------------
-
-## 🎮 Features
+## Features
 
 - **Customizable Game Settings**:
-  - ⏲ Time Limits: 10 seconds to 4 minutes
-  - 🐘 Animal Variety: Choose 4-10 different animals (8-20 blocks)
+  - Time Limits: 10 seconds to 4 minutes
+  - Animal Variety: Choose 4-10 different animals (8-20 blocks)
 - **Progress Tracking**:
-  - ⏱ Previous game time displayed before new rounds
-  - 📊 Best time preserved in local storage
+  - Previous game time displayed before new rounds
+  - Best time preserved in local storage
 - **Theme Control**:
-  - 🌓 Light/dark mode toggle
-  - 🎨 Persistent theme preference
+  - Light/dark mode toggle
+  - Persistent theme preference
 - **Responsive Design**:
-  - 📱 Adapts to all screen sizes
-  - 🖥 Optimized grid layouts
+  - Adapts to all screen sizes
+  - Optimized grid layouts
 
-## ⚙️ Installation
+## Installation
 
 ```bash
-git clone https://github.com/SaifAbdelrazek011/Animals-Memory-Blocks.git
-cd Animals-Memory-Blocks
+git clone https://github.com/a8k-legacy/animals-memory-blocks.git
+cd animals-memory-blocks
 npm install
 npm run dev
 ```
 
-## 🕹️ How to Play
+## How to Play
 
 1. **Game Setup**:
    - Select number of animals (4-10)
@@ -51,25 +44,17 @@ npm run dev
    - Failure: Time runs out
    - Restart with same/different settings
 
-## 🧰 Technical Implementation
+## Technical Implementation
 
 - **Core Stack**:
   - TypeScript
   - CSS Grid/Flexbox
   - HTML5
 
+## Enhanced Version
 
-## 🤝 Contributing
+A restyled version of this game may be featured in a future collection.
 
-Contributions welcome! Please follow:
-1. Fork repository
-2. Create feature branch (`feature/your-feature`)
-3. Submit PR with detailed description
+---
 
-## 📄 License
-
-MIT Licensed - See [LICENSE](LICENSE) for details
-
-## 🙏 Acknowledgements
-
-- Original concept inspiration from Elzero
+*Part of the A8K Legacy archive—a collection of early projects and learning experiments by [Saif Abdelrazek](https://saifabdelrazek.com).*
